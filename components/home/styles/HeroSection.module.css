@@ -1,0 +1,47 @@
+.hero {
+  height: 100vh;
+  min-height: 80ch;
+  max-height: 120ch;
+  position: relative;
+}
+
+.heroBg {
+  opacity: 0.3;
+  background-position: center;
+}
+
+.customShapeDividerBottom1713476723 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  filter: drop-shadow(0 -5px 3px rgba(0, 0, 0, 0.2));
+}
+
+.customShapeDividerBottom1713476723 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.customShapeDividerBottom1713476723 .shapeFill {
+  fill: #ececec;
+}
+
+@media (max-width: 500px) {
+  .text5xl {
+    font-size: 2rem !important;
+    padding-top: 50px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .text5xl {
+    font-size: 1.3rem !important;
+    padding-top: 50px !important;
+  }
+}
+

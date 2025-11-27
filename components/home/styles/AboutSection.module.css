@@ -1,0 +1,24 @@
+.customShapeDividerTop {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  filter: drop-shadow(0 -5px 3px rgba(0, 0, 0, 0.2));
+}
+
+.customShapeDividerTop svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+@media (max-width: 800px) {
+  .customShapeDividerTop svg {
+    width: 800px;
+    height: auto;
+  }
+}
+
